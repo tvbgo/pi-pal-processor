@@ -1,0 +1,9 @@
+{:size=>25,
+ :position=>33135773126758,
+ :pal=>"9609457639843489367549069",
+ :position_validated=>true}
+
+{:size=>25,
+ :position=>33044988112960,
+ :pal=>"7331530558321238550351337",
+ :position_validated=>true}
