@@ -1,7 +1,7 @@
 require 'json'
 
 cand_array = []
-Dir.glob("full_results/*.txt") do |file|
+Dir.glob("full_results/100t.txt") do |file|
   f = File.open(file)
 
   f.each do |line|
@@ -11,7 +11,7 @@ Dir.glob("full_results/*.txt") do |file|
     size = r[3].to_i
     pal = r[2].strip
 
-    if size.to_i >= 25 && !['0', '2', '4', '5', '6', '8'].include?(last_digit)
+    if size.to_i > 25 && !['2', '4', '5', '6', '8'].include?(last_digit)
       position = (r[0].to_i + r[1].to_i) - ((size - 1) / 2) + 1
       candidate[:size] = size
       candidate[:position] = position
