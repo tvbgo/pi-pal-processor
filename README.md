@@ -16,6 +16,7 @@ You will need to do some steps before executing this project
 5. Create a service account and download the json
 with credentials. Place it anywhere on this project
 6. Have or install [Golang](https://go.dev/doc/install)
+
 Opt:
 7. Have or install Ruby to use the result processor
 
